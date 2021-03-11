@@ -1,0 +1,35 @@
+/* @font-face {
+  font-family: "ArtDystopia";
+  src: url("./fonts/ArtDystopia.otf") format("opentype");
+} */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+.texture{
+  /* visibility: hidden;  */
+}
+
+#messages{
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  color: white;
+}
